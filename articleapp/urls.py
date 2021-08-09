@@ -1,4 +1,3 @@
-
 from django.urls import path
 from django.views.generic import TemplateView
 
@@ -14,3 +13,5 @@ urlpatterns = [
     path('update/<int:pk>', ArticleUpdateView.as_view(), name='update'),
     path('delete/<int:pk>', ArticleDeleteView.as_view(), name='delete'),
 ]
+
+
